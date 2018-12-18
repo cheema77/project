@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'barlow_semi_condensedblack';
+    src: url('barlowsemicondensed-black-webfont.woff2') format('woff2'),
+         url('barlowsemicondensed-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body{
+	font-family: 'barlow_semi_condensedblack';
+   font-size: 100%;}
+html {
+	height: 100%;
+	background-color: #000;
+	background-image: url(../img/bg.jpg);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+body {
+	
+	color: #000;
+	margin: 0px auto;
+	background-color: #fff;
+	min-height: 100%;
+	width: 960px;
+}
+.header {
+	text-align: center;
+	border-top: 10px solid #000000;
+}
+h3{
+	color: yellowgreen;	
+}
+p{
+	color:yellowgreen;
+	width:950px;
+		font-size:150%;
+		margin:0px;
+		padding:0px;
+		
+}
+.navigation {
+	margin-top: 1em;
+}
+ul.navig{
+	padding:0;
+}
+ul.navig li:nth-child(6) {
+	border-right: none;
+}	
+ul.navig li {
+	list-style: none;
+	display:inline-block;
+	background: yellowgreen;
+	border-right: 1px solid #000;
+}
+ul.navig li a {
+	color: #fff;
+	font-size: 21px;
+	display: block;
+	padding: 20px 71px;
+}
+ul.navig li a:hover,ul.navig li.active a{
+	background:yellow;
+	 transition: all 0.3s ease; 
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     text-decoration:none;
+}
+@media (max-width:768px){
+	span.menu{
+		
+	}
+	
+	ul.navig{
+		display: none;
+		background:#fff;
+		text-align:center;
+	}
+	ul.navig li{
+		display:block;
+		float: none;
+	}
+	ul.navig li a{
+		color:#fff;
+		display:block;
+		border-bottom:1px solid #fff;
+		background: #515151;
+		padding: 5px 0px;
+	}
+	.navigation{
+		float:none;
+		width:100%;
+		margin-top:6px;
+	}
+	.header {
+	padding-top:20px;
+	}
+	ul.navig li{
+	padding-left: 0em;
+	}
+	ul.navig li a:hover, ul.navig li a.active {
+	color:#716A72
+    }
+  
+    .zoomit {
+        animation: zoom-in-out .5s;
+    }
+    @keyframes zoom-in-out {
+        from { transform: none; }
+        50% {
+            transform: scale(1.4);
+            transform-origin: center top;
+        }
+        to { transform: none; }
+    }
+    
+    .carousel-indicators {
+    top:0.5%;
+    color: yellowgreen;
+	 }
+	 
+	
+	}
+	#about{
+		background-color: black;
+		margin:15px 0 0 5px;
+		padding:0;
+	}
+	
+	#about > h1{
+		font-weight:bold;
+		color:yellowgreen;
+		font-size:200%;	
+		margin:0 0 15px 0;
+		padding:0;
+	}
+	
+	
+	section:nth-of-type(1) > figure{
+		float:left;
+		margin:15px 0 0 15px;
+	}
+	footer{
+		background-color: black;
+		color: yellowgreen;
+		font-size: 10px;
+	}
+	
